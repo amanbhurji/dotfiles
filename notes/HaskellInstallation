@@ -1,0 +1,15 @@
+#Installation on a fresh fedora install using ghcup -
+
+Installation with ghcup on a clean fedora instance
+
+Missing Dependencies -
+* make
+* gmp-devel
+* zlib-devel
+* ncurses-devel
+
+```
+dnf install -y make gmp-devel zlib-devel ncurses-devel
+```
+
+Stack installation also installs these alongside few other dependencies

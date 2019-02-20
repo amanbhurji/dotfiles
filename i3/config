@@ -180,3 +180,6 @@ bindsym $mod+shift+x exec i3lock
 
 # set desktop backgroud 
 exec --no-startup-id xsetroot -solid "#002244"
+
+# set mouseover to not change focus window
+focus_follows_mouse no
