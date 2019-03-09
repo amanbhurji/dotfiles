@@ -13,3 +13,12 @@ dnf install -y make gmp-devel zlib-devel ncurses-devel
 ```
 
 Stack installation also installs these alongside few other dependencies
+
+# haskell-ide-engine installation notes -
+
+Installation with cabal -
+Running `stack ./install.hs cabal-ghcs` does seem to download stack. Whether it proceeds to install cabal and rest of the tools using stack is untested so far.
+
+Running `stack ./install.hs hie-8.6.3` installs stack and Cabal + other stuff to a total of ~10G! All of this duplication might be preventable if stack is not required and installation is done via stack.
+More testing is required.
+
