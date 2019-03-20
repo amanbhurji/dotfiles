@@ -8,7 +8,9 @@ call vundle#begin('~/.config/nvim/bundle')
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'rking/ag.vim'
+Plugin 'vim-airline/vim-airline'
 Plugin 'derekwyatt/vim-scala'
+Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-markdown'

@@ -1,7 +1,6 @@
 " NerdTree config
 let NERDTreeShowHidden=1
 let NERDTreeIgnore = ['.bundle', '.git']
-let g:NERDTreeNodeDelimiter = "\u00a0"
 map <silent> <Leader>nt :NERDTreeToggle<CR>
 map <silent> <Leader>nf :NERDTreeFind<CR>
 
@@ -18,6 +17,3 @@ let g:syntastic_tex_checkers = ['lacheck']
 
 " Search dotfiles (defaults to False)
 let g:ctrlp_show_hidden = 1
-"
-" Better CtrlP visibility
-highlight CursorLine cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
